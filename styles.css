@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(blue,cyan);
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    height: 100vh;
+}
+label {
+    font-size: large;
+    font-weight: 500;
+    width: 100px;
+    display: inline-block;
+
+}
+form {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    font-style: oblique;
+    border-radius: 20px;
+    font-weight: 500;
+    height: 50vh;
+    width: 40%;
+    background-color: black;
+    color:white;
+}
+input {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+a {
+    color: cyan;
+}
+button {
+    background-color:aqua;
+    color:black;
+    cursor: pointer;
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 600;
+}
+button:hover {
+    background-color: rgb(0, 255, 64);
+}
+button:active {
+    background-color: chartreuse;
+}
+input {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+
+}
